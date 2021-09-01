@@ -1,0 +1,129 @@
+.design {
+    padding: 80px;
+    background-color: #f5f5f5;
+}
+
+.design .top {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+
+.design .top .left {
+    width: 30%;
+    color: #666666;
+    font-size: 15px;
+    line-height: 28px;
+    margin-right: 80px;
+}
+
+.design .top .left  h5 {
+    color: #333333;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.design .top .left span {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.design .top .right {
+    width: 40%;
+}
+
+.design .top .right img {
+    width: 100%;
+}
+
+.design .bottom {
+padding-top: 80px;
+}
+
+.design .bottom .title{
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+}
+
+.design .bottom .title span {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.design .bottom .lists {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.design .bottom .lists .list {
+    width: 30%;
+    margin: 60px 0;
+    color: #999;
+    font-size: 12px;
+}
+
+.design .bottom .lists .list img {
+    width: 100px;
+    height: 100px;
+}
+
+.design .bottom .lists .list div {
+    margin-top: 10px;
+    color: #666666;
+    font-size: 16px;
+}
+
+
+@media (max-width: 1200px)  {
+    .design {
+        padding: 40px;
+    }
+    .design .top .right {
+       width: 50%;
+    }
+    .design .top .left {
+        margin-right: 40px;
+    }
+    .design .bottom .lists .list img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 900px)  {
+    .design .top {
+        flex-flow: column;
+    }
+    .design .top .left {
+        width: 100%;
+    }
+    .design .top .right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .design .bottom .lists .list {
+        width: 40%;
+    }
+    .design .bottom .lists {
+        padding: 0;
+    }
+    .design .bottom .lists .list img {
+        width: 50px;
+        height: 50px;
+    }
+    .design {
+        padding: 20px;
+    }
+}

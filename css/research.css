@@ -1,0 +1,152 @@
+.research {
+    background-color: #f4f4f4;
+    padding: 100px 160px;
+    display: flex;
+    padding-bottom: 160px;
+}
+
+.research .nav h4 {
+    margin-bottom: 20px;
+}
+
+.research .nav div {
+    font-size: 16px;
+    color: #666666;
+}
+
+.research .nav div div {
+    margin-top: 20px;
+    padding-left: 4px;
+}
+.research .nav div .active {
+    border-left: 2px solid #004098;
+    color: #0071bc;
+}
+
+.myCarousel {
+    flex: 1;
+    position: relative;
+    margin-top: 50px;
+}
+.myCarousel .carousel-item {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+.myCarousel .carousel-item .listItem {
+    min-width: 100%;
+    display: none;
+}
+.myCarousel .carousel-item .listItem.active {
+    display: inline-block;
+}
+.myCarousel img {
+    width: 100%;
+
+}
+.myCarousel .prev {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.myCarousel .next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.myCarousel .listItem .title {
+    width: 55%;
+    color: #666666;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.myCarousel .listItem .tips {
+    position: absolute;
+    top: -70px;
+    right: 25px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.myCarousel .listItem .tips div.active {
+    font-size: 30px;
+    color: #fff;
+    background-color: #0071bc;
+    padding: 2px;
+}
+
+.myCarousel .listItem .tips .border {
+    width: 5px;
+    height: 30px;
+    background-color: #0071bc;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.myCarousel .listItem .tips div {
+    margin-top: 20px;
+}
+.myCarousel .listItem .tips div:nth-child(1) {
+    margin-top: 0;
+}
+
+@media (max-width: 1000px)  {
+    .research {
+        padding: 40px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .research {
+        flex-flow: column;
+        padding: 10px;
+        padding-bottom: 80px;
+    }
+    .navlist {
+        display: flex;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .research .nav div div {
+        margin-top: 10px;
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+    .myCarousel .carousel-item {
+        width: 82%;
+    }
+    .myCarousel .listItem .title {
+        width: 100%;
+    }
+    .myCarousel .prev,.myCarousel .next {
+        width: 20px;
+        height: 20px;
+    }
+    .myCarousel .listItem .tips {
+        right: 0;
+        top: -30px;
+    }
+    .myCarousel .listItem .tips div:nth-child(1) {
+        font-size: 16px;
+    }
+    .myCarousel .listItem .tips .border {
+        width: 2px;
+        margin-top: 10px;
+    }
+}

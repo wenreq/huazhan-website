@@ -1,0 +1,116 @@
+.major {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 200px;
+    background: #f5f5f5;
+}
+
+.major .left img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.major .left .name {
+    padding: 20px 0;
+    /*border-top: 1px solid #696f6f;*/
+    color: #666666;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: content-box;
+    position: relative;
+
+}
+.major .left .name:after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: #696f6f;
+    top: 0;
+    left: 0;
+}
+
+.major .left div,.major .left p {
+    width: 430px;
+    line-height: 28px;
+    color: #666;
+    font-size: 14px;
+}
+
+.major .left p {
+    margin-top: 20px;
+}
+
+.major .right .title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.major .right .list {
+    text-align: right;
+    font-size: 16px;
+    color: #999999;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.major .right .list span {
+    width: 20px;
+    height: 1px;
+    background: #999;
+    margin-left: 4px;
+}
+
+.major .right .list.active{
+    color: #333333;
+}
+
+.major .right .list.active span {
+    background: #333;
+}
+
+@media (max-width: 1000px) {
+    .major {
+        flex-flow: column;
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 180px;
+    }
+    .major .left {
+        order: 2
+    }
+    .major .right .lists {
+        display: flex;
+    }
+
+    .major .right .lists .list {
+        margin-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .major {
+        flex-flow: column;
+        padding: 40px 20px;
+    }
+    .major .left div, .major .left p {
+        width: 100%;
+    }
+    .major .right .lists {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .major .right .lists .list {
+        white-space: nowrap;
+    }
+}

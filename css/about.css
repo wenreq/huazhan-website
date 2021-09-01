@@ -1,0 +1,776 @@
+.about1,.about2 {
+    background: #f4f4f4;
+}
+.about4 {
+    background: #fff;
+}
+.about3 {
+    padding-bottom: 80px;
+}
+@media (min-width: 768px) {
+    .about1,.about2 {
+        padding-top: 80px;
+    }
+    .about1 .content{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .about1 .content .right, .about2 .content .right {
+        position: relative;
+        width: 50%;
+        height: 410px;
+    }
+    .about1 .content .right .bg {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+    }
+    .about1 .content .right .bg img{
+        width: 100%;
+        height: 100%;
+    }
+    .about1 .content .right video {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+    }
+
+    .about1 .content .left .title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #333;
+    }
+    .about1 .content .left {
+        /*margin:  0 300px;*/
+        /*flex: 1;*/
+        padding-left: 80px;
+        width: 340px;
+        color: #666666;
+        font-size: 14px;
+        line-height: 30px;
+        box-sizing: content-box;
+    }
+    .about2 .content .left {
+        color: #666666;
+        font-size: 15px;
+        box-sizing: content-box;
+        width: 390px;
+        padding-left: 20px;
+        /*padding-left: 300px;*/
+        padding-right: 100px;
+        line-height: 28px;
+    }
+    .about2 .content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .about2 .content .right {
+        display: flex;
+        width: 52%;
+    }
+    .about2 .content .right img {
+        width: 44%;
+    }
+    .about3 .content .right {
+        width: 45%;
+        height: 540px;
+    }
+    .about3 .content .left {
+        padding-left: 60px;
+    }
+    .about4 {
+        height: 520px;
+        padding: 60px 0;
+        position: relative;
+    }
+    .about4 .title {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 20px;
+        color: #333;
+    }
+    .about4 .content {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .about4 .content img {
+        width: 100%;
+    }
+    .about5 {
+        /*height: 919px;*/
+        position: relative;
+        background: #fff;
+    }
+    .about5 .mark{
+        /*position: absolute;*/
+        width: 100%;
+        /*height: 100%;*/
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+    }
+    .about5 .mark img {
+        width: 100%;
+    }
+    .about5 .message {
+        position: absolute;
+        width: 38%;
+        /*height: 50%;*/
+        padding: 20px;
+        background-color: #ffffff;
+        top: 50%;
+        left: 100px;
+        transform: translate(0, -50%);
+    }
+
+    .about5 .message h4 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .about5 .message p {
+        color: #666666;
+        line-height: 28px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    .about5 .message p:last-child {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .about5 .message p:last-child span {
+        width: 24px;
+        height: 1px;
+        background: #666666;
+    }
+    .about6 {
+        height: 610px;
+        background: #fff;
+    }
+    .about6 .content {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .about6 .content .left {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 160px;
+        font-size: 15px;
+    }
+    .about6 .content .left div{
+        font-size: 18px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .about6 .content .left p {
+        color: #666666;
+        line-height: 30px;
+    }
+
+    .about6 .content .right {
+        position: absolute;
+        top: 21%;
+        right: 10%;
+        width: 320px;
+        color: #666666;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .about6 .content .bg {
+        width: 600px;
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+    .about6 .content .bg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    .about1 {
+        padding-top: 80px;
+    }
+    .about1 .content{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .about1 .content .right {
+        position: relative;
+        width: 50%;
+        height: 410px;
+    }
+    .about1 .content .right .bg {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+    }
+    .about1 .content .right .bg img{
+        width: 100%;
+        height: 100%;
+    }
+    .about1 .content .right video {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+    }
+
+    .about1 .content .left .title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #333;
+    }
+    .about1 .content .left {
+        /*margin:  0 300px;*/
+        /*flex: 1;*/
+        padding-left: 100px;
+        width: 340px;
+        color: #666666;
+        font-size: 14px;
+        line-height: 30px;
+        box-sizing: content-box;
+    }
+    .about2 .content .left {
+        color: #666666;
+        font-size: 15px;
+        box-sizing: content-box;
+        width: 390px;
+        /*padding-left: 300px;*/
+        padding-right: 120px;
+        line-height: 28px;
+    }
+    .about2 .content .right img {
+        width: 44%;
+    }
+    .about3 .content .right {
+        width: 45%;
+        height: 480px;
+    }
+    .about3 .content .left {
+        padding-left: 60px;
+        width: 400px;
+    }
+    .about4 {
+        height: 620px;
+        padding: 60px 0;
+        position: relative;
+    }
+    .about4 .title {
+        font-size: 22px;
+    }
+    .about5 {
+        /*height: 919px;*/
+        position: relative;
+        background: #fff;
+    }
+    .about5 .mark{
+        /*position: absolute;*/
+        width: 100%;
+        /*height: 100%;*/
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+    }
+    .about5 .mark img {
+        width: 100%;
+    }
+    .about5 .message {
+        position: absolute;
+        width: 36%;
+        /*height: 50%;*/
+        padding: 30px;
+        background-color: #ffffff;
+        top: 50%;
+        left: 100px;
+        transform: translate(0, -50%);
+    }
+
+    .about5 .message h4 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .about5 .message p {
+        color: #666666;
+        line-height: 28px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    .about5 .message p:last-child {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .about5 .message p:last-child span {
+        width: 24px;
+        height: 1px;
+        background: #666666;
+    }
+    .about6 {
+        height: 710px;
+        background: #fff;
+    }
+    .about6 .content {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .about6 .content .left {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 160px;
+        font-size: 15px;
+    }
+    .about6 .content .left div{
+        font-size: 18px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .about6 .content .left p {
+        color: #666666;
+        line-height: 30px;
+    }
+
+    .about6 .content .right {
+        position: absolute;
+        top: 21%;
+        right: 20%;
+        width: 320px;
+        color: #666666;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .about6 .content .bg {
+        width: 700px;
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+    .about6 .content .bg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about1 {
+        padding-top: 80px;
+    }
+
+    .about1 .content {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .about1 .content .right {
+        position: relative;
+        width: 44%;
+        height: 454px;
+        margin-right: 40px;
+    }
+
+    .about1 .content .right .bg {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+    }
+
+    .about1 .content .right .bg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about1 .content .right video {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    .about1 .content .left .title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .about1 .content .left {
+        /*margin:  0 300px;*/
+        /*flex: 1;*/
+        padding-left: 160px;
+        width: 380px;
+        color: #666666;
+        font-size: 15px;
+        line-height: 30px;
+        box-sizing: content-box;
+    }
+
+    .about2 .content .right {
+        display: flex;
+        width: 52%;
+    }
+
+    .about2 .content .left {
+        color: #666666;
+        font-size: 15px;
+        box-sizing: content-box;
+        width: 420px;
+        /*padding-left: 300px;*/
+        padding-right: 120px;
+        line-height: 28px;
+    }
+
+    .about2 .content .right img {
+        width: 34%;
+    }
+    .about3 .content .left {
+        width: 450px;
+        padding-left: 60px;
+    }
+    .about3 .content .left p:nth-child(3) {
+        margin-top: 30px;
+    }
+    .about3 .content .right {
+        width: 45%;
+        height: 490px;
+    }
+    .about4 {
+        height: 820px;
+        padding: 80px 0;
+        position: relative;
+    }
+    .about4 .title {
+        font-size: 24px;
+    }
+    .about5 {
+        /*height: 919px;*/
+        position: relative;
+        background: #fff;
+    }
+    .about5 .mark{
+        /*position: absolute;*/
+        width: 100%;
+        /*height: 100%;*/
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+    }
+    .about5 .mark img {
+        width: 100%;
+    }
+    .about5 .message {
+        position: absolute;
+        width: 26%;
+        /*height: 50%;*/
+        padding: 40px;
+        background-color: #ffffff;
+        top: 50%;
+        left: 100px;
+        transform: translate(0, -50%);
+    }
+
+    .about5 .message h4 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .about5 .message p {
+        color: #666666;
+        line-height: 28px;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    .about5 .message p:last-child {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .about5 .message p:last-child span {
+        width: 24px;
+        height: 1px;
+        background: #666666;
+    }
+    .about6 {
+        height: 810px;
+        background: #fff;
+    }
+    .about6 .content {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .about6 .content .left {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 160px;
+        font-size: 15px;
+    }
+    .about6 .content .left div{
+        font-size: 18px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .about6 .content .left p {
+        color: #666666;
+        line-height: 30px;
+    }
+
+    .about6 .content .right {
+        position: absolute;
+        top: 21%;
+        right: 30%;
+        width: 320px;
+        color: #666666;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .about6 .content .bg {
+        width: 800px;
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+    .about6 .content .bg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .about1 {
+        padding-top: 40px;
+    }
+
+    .about1 .content{
+        display: flex;
+        flex-flow: column;
+        padding: 20px 40px;
+    }
+
+    .about1 .content .right {
+        position: relative;
+        /*height: 410px;*/
+    }
+    .about1 .content .right .bg {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 11;
+    }
+    .about1 .content .right .bg img{
+        width: 100%;
+        height: 100%;
+    }
+    .about1 .content .right video {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+    }
+
+    .about1 .content .left .title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #333;
+    }
+    .about1 .content .left {
+        /*margin:  0 300px;*/
+        /*flex: 1;*/
+        /*padding-left: 160px;*/
+        /*width: 380px;*/
+        color: #666666;
+        font-size: 15px;
+        line-height: 30px;
+        box-sizing: content-box;
+    }
+
+    .about2 .content {
+        display: flex;
+        flex-flow: column;
+        padding: 20px 40px;
+    }
+
+    .about2 .content .right {
+        order: 1;
+        display: flex;
+    }
+    .about2 .content .right img {
+        width: 50%;
+    }
+    .about2 .content .left {
+        order: 2;
+        color: #666666;
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .about4 {
+        height: 520px;
+        padding: 60px 0;
+        position: relative;
+    }
+    .about4 .title {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 20px;
+        color: #333;
+    }
+    .about4 .content {
+        width: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .about4 .content img {
+        width: 100%;
+    }
+    .about5 {
+        /*height: 919px;*/
+        position: relative;
+        background: #fff;
+        height: 300px;
+    }
+    .about5 .mark{
+        /*position: absolute;*/
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+    }
+    .about5 .mark img {
+        width: 100%;
+        height: 100%;
+    }
+    .about5 .message {
+        position: absolute;
+        /*min-width: 50%;*/
+
+        /*height: 50%;*/
+        padding: 0px 20px;
+        background-color: #ffffff;
+        top: 50%;
+        left: 5%;
+        transform: translate(0, -50%);
+    }
+
+    .about5 .message h4 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .about5 .message p {
+        color: #666666;
+        line-height: 24px;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .about5 .message p:last-child {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .about5 .message p:last-child span {
+        width: 24px;
+        height: 1px;
+        background: #666666;
+    }
+    .about6 {
+        /*height: 610px;*/
+        background: #fff;
+    }
+    .about6 .content {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        padding: 80px 20px;
+    }
+    .about6 .content .left {
+        /*width: 160px;*/
+        font-size: 15px;
+    }
+    .about6 .content .left div{
+        font-size: 18px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .about6 .content .left p {
+        color: #666666;
+        line-height: 30px;
+        display: inline-block;
+        width: 40%;
+    }
+
+    .about6 .content .right {
+        color: #666666;
+        font-size: 15px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .about6 .content .bg {
+       display: none;
+    }
+}

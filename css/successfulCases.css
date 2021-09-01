@@ -1,0 +1,139 @@
+.successful {
+    padding: 80px 160px;
+    background: #f5f5f5;;
+}
+.m-style {
+    background: #f5f5f5;;
+}
+.successful .title1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.successful .lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.successful .lists .list {
+    display: flex;
+    width: 48%;
+    height: 255px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.successful .lists .list  > div{
+    /*flex: 1;*/
+    width: 50%;
+}
+
+.successful .lists .list  > .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.successful .lists .list  > .right {
+    padding-left: 20px;
+}
+.successful .lists .list  > .right .title {
+    color: #666666;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0071bc;;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    font-weight: 500;
+    font-size: 16px;
+}
+.successful .lists .list  > .right p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;  /* 超出n行这里写n */
+    -webkit-box-orient: vertical;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.successful .videos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.successful .videos .video {
+    width: 30%;
+    color: #666666;
+    font-size: 18px;
+}
+
+.successful .videos .video video {
+    width: 100%;
+}
+
+.successful .videos .video div {
+    margin-top: 20px;
+}
+
+.successful .tips {
+    margin-top: 100px;
+    border-left: 4px solid #0071bc;
+    font-size: 16px;
+    color: #666666;
+    padding-left: 4px;
+}
+
+.successful .tips span {
+    font-size: 12px;
+}
+
+
+@media (max-width: 1200px)  {
+    .successful {
+        padding: 60px;
+    }
+    .successful .lists .list {
+        height: 230px;
+        margin: 30px 0;
+    }
+    .successful .lists .list > .right p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 900px)  {
+    .successful {
+        padding: 60px 20px;
+    }
+    .successful .lists .list {
+        width: 100%;
+    }
+    .successful .title1 {
+        font-size: 20px;
+    }
+    .successful .lists .list {
+        margin: 20px 0;
+    }
+    .successful .videos {
+        flex-wrap: wrap;
+    }
+    .successful .videos .video {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .successful .videos .video div {
+        margin-top: 10px;
+    }
+    .m-style {
+        padding-bottom: 100px;
+    }
+    .successful .tips {
+        margin-top: 50px;
+    }
+}
